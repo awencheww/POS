@@ -10,7 +10,24 @@
     --docsearch-logo-color: var(--bd-violet);
 }
 
-.main {
-    color: rgba(0,0,0,0.85);
-    background-color: rgba(var(--bd-violet-rgb), 0.1);
+.bg-primary-color {
+  color: white;
+  background-color: rgba(var(--bd-violet-rgb), 0.4);
+}
+.bg-secondary-color {
+  color: white;
+  background-color: rgba(var(--bd-violet-rgb), 0.01);
+}
+
+.border-primary-color {
+  border: 1px solid rgba(var(--bd-violet-rgb), 0.4);
+}
+#filter {
+  cursor: pointer;
+}
+.show {
+  display: inline-block;
+}
+.hide {
+  display: none;
 }
